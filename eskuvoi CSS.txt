@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.cover{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: table;
+}
+
+.wrapper{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header-tagline::after{
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+
+.date::before, .date::after{
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1rem;
+  vertical-align: middle;
+}

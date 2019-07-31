@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="Eskuvoi">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Libre+Baskerville|Muli&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <title>Zoe&Alex</title>
+</head>
+<body>
+  <header class="cover">
+    <div class="wrapper">
+      <div class="header-tagline">
+        "We're getting married!"
+      </div>
+      <h1 class="headline">Zoe & Alex</h1>
+      <div class="date">
+        August 1, 2018
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="Locations">
+      <h1>Locations</h1>
+      <div class="Ceremony">
+        <h2>Ceremony</h2>
+        <img src="https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-ceremony.png" alt="Rings">
+        <h3>St. Nicholas Church</h3> 
+        <h3>2 Trinity Square, Budapest</h3>
+      </div>
+      <div class="Photos">
+        <h2>Photos</h2>
+        <img src="https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-photoshoot.png" alt="Photo-apparat">
+        <h3>Liberty Bastion</h3> 
+        <h3>23 Wisdom Road, Budapest</h3>
+      </div>
+      <div class="Party">
+        <h2>Party</h2>
+        <img src="https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-party.png" alt="Cake">
+        <h3>Heaven Lounge</h3> 
+        <h3>14 Fairy Street, Budapest</h3>
+      </div>
+    </div>
+    <div class="Program">
+      <h1>Program</h1>
+      <h3>"It's going to be somehow, that's for sure."</h3>
+      <ul>
+        <li>13:45 – Wedding ceremony</li>
+        <li>14:30 – Photos</li>
+        <li>16:00 – Cocktails</li>
+        <li>18:00 – Dinner</li>
+        <li>22:00 – Cake</li>
+        <li>... - 4:00 – Dance until dawn</li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
