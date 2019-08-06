@@ -2,17 +2,31 @@
   box-sizing: border-box;
 }
 
+/* Header */
 .cover{
   background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
   height: 100vh;
   width: 100vw;
   text-align: center;
   display: table;
+  margin-bottom: 1rem;
 }
 
-.wrapper{
+.wrapper {
   display: table-cell;
   vertical-align: middle;
+}
+
+.text {
+  margin: 0 auto;
+  padding: .625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+.header-tagline{
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
 }
 
 .header-tagline::after{
@@ -20,8 +34,20 @@
   content: "";
   background-color: #fff;
   height: 1px;
-  width: 12.515625rem;
+  width: 12rem;
   margin: .5rem auto;
+}
+
+.headline{
+  font-size: 3rem;
+  font-family: 'great Vibes', cursive;
+  color: #d2ba87;
+  padding: 0.625rem;
+}
+
+.date{
+  font-size: 1.25rem;
+  letter-spacing: .1rem;
 }
 
 .date::before, .date::after{
@@ -32,3 +58,250 @@
   width: 1rem;
   vertical-align: middle;
 }
+
+@media (min-width: 768px){
+  
+  .header-tagline{
+    text-transform: uppercase;
+    
+  }
+  
+  .headline {
+    font-size: 7rem;
+    padding: 1.125rem;
+  }
+  
+  .text{
+    width: 50%;
+    border-radius: 5px;
+  }
+}
+  
+/* Header's end*/
+
+/* Main */
+
+/*Location*/
+
+.Locations{
+  display: block;
+  text-align: center;
+  padding: 0.625rem;
+}
+
+.Locations h1{
+  font-family: 'great Vibes', cursive;
+  font-size: 3rem;
+  padding: 1.5rem;
+}
+
+.Locations h2{
+  font-family: 'Libre Baskerville', cursive;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  font-weight: bold;
+}
+
+.Locations p{
+  font-family: Muli, cursive;
+  font-size: 1.125rem;
+  padding: 0 1rem;
+}
+
+.Locations img{
+  width: 120px;
+  margin-bottom: 1.5rem;
+}
+
+.Ceremony::after, .Photos::after, .Party::after{
+  display: block;
+  content: "";
+  background-color: #444349;
+  height: 3px;
+  width: 25%;
+  margin: 1.5rem auto .5rem;
+}
+
+@media (min-width: 768px){
+  .Locations div{
+    display: inline-block;
+    vertical-align: top;
+    width: 29vw;
+    margin: 0% 1% 0%;
+  }
+    
+  .Ceremony::after, .Photos::after, .Party::after{ 
+    height: 0px;  
+  }
+}
+
+/*Location's end*/
+
+/* Program */
+
+.Program{
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  padding: 1rem;
+}
+
+.Program h1{
+  font-family: 'great Vibes', cursive;
+  font-size: 3rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.Program ul, .Program h3{
+  font-family: Muli, cursive;
+  font-size: 1.125rem;
+  padding: .5rem;
+}
+
+.Program h3{
+  font-style: italic;
+  margin-bottom: 1rem;
+}  
+
+@media (min-width: 768px){
+  .Program ul, h3{
+    margin: 0 auto;
+    width: 35%;
+  }
+  
+}
+
+/*Program's end*/
+
+/*Gifts*/
+
+.Gifts{
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.Gifts h1{
+  font-family: 'great Vibes', cursive;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.Gifts h3{
+  font-family: Muli, cursive;
+  font-size: 1.125rem;
+  padding: .5rem;
+}
+
+.Gifts img{
+  width: 120px;
+}
+
+/*Gift's end*/
+
+/*Questions & Answers*/
+
+.Q-and-A{
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  padding: 1rem;
+}
+
+.Q-and-A h1{
+  font-family: 'great Vibes', cursive;
+  font-size: 3rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.Q-and-A h2{
+  font-family: 'Libre Baskerville', cursive;
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.question{
+  font-family: Muli, cursive;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.answer{
+  font-family: Muli, cursive;
+  font-size: 1.125rem;
+  padding-bottom: 1.625rem;
+}
+
+.Q-and-A div::after{
+  display: block;
+  content: "";
+  background-color: #d2ba87;
+  height: 3px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover{
+  color: #eda087;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (min-width: 768px){
+  .Q-and-A div{
+    display: inline-block;
+    vertical-align: top;
+    width: 30vw;
+    padding: 0 1.125rem;
+
+  }
+    
+  .Q-and-A div::after{ 
+    height: 0px;  
+  }
+  
+  .Q-and-A h2{
+    padding-left: 0;
+    text-align: left;
+  }  
+}
+
+/*Questions & Answers's end*/
+
+/*Contact*/
+
+.Contact{
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.Contact h1{
+  font-family: 'great Vibes', cursive;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.Contact p{
+  font-family: Muli, cursive;
+  font-size: 1.125rem;
+  padding: .5rem;
+}
+
+/*Contact's end*/
+
+/*Footer*/
+
+.Footer{
+  background-color: hsla(100,0%,0%,.6);
+  font-family: Muli, cursive;
+  text-align: center;
+  color: hsla(0,0%,100%,.9);
+  padding: 1.5rem;
+}
+
+/*Footer's end*/
